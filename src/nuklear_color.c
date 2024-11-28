@@ -1,5 +1,5 @@
-#include "nuklear.h"
-#include "nuklear_internal.h"
+#include "nuklear\include\nuklear.h"
+#include "nuklear\include\nuklear_internal.h"
 
 /* ==============================================================
  *

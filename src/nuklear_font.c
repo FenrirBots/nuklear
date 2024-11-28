@@ -1,5 +1,5 @@
-#include "nuklear.h"
-#include "nuklear_internal.h"
+#include "nuklear\include\nuklear.h"
+#include "nuklear\include\nuklear_internal.h"
 
 #ifdef NK_INCLUDE_FONT_BAKING
 /* -------------------------------------------------------------
@@ -8,7 +8,7 @@
  *
  * --------------------------------------------------------------*/
 
-#include "stb_rect_pack.h"
+#include "nuklear\include\stb_rect_pack.h"
 
 /*
  * ==============================================================
@@ -18,7 +18,7 @@
  * ===============================================================
  */
 #define STBTT_MAX_OVERSAMPLE   8
-#include "stb_truetype.h"
+#include "nuklear\include\stb_truetype.h"
 
 /* -------------------------------------------------------------
  *
