@@ -1,0 +1,25 @@
+[attr]textattr whitespace=space-before-tab,indent-with-non-tab,trailing-space,cr-at-eol,tabwidth=4 
+
+*       text=auto
+*.bat   text textattr eol=crlf
+*.sh    text textattr eol=crlf
+
+*.c     text textattr eol=crlf
+*.cpp   text textattr eol=crlf
+*.cxx   text textattr eol=crlf
+*.h     text textattr eol=crlf
+*.hpp   text textattr eol=crlf
+*.hxx   text textattr eol=crlf
+
+*.png   binary
+*.jpg   binary
+*.ico   binary
+
+*.exe   binary
+*.dll   binary
+*.lib   binary
+*.so    binary
+*.o     binary
+*.obj   binary
+*.pdb   binary
+*.map   text textattr eol=lf
